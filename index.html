@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Timetable</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 Student Timetable</h1>
+            <p class="subtitle">Academic Schedule 2024-2025</p>
+        </header>
+
+        <div class="timetable-section">
+            <h2>Weekly Schedule</h2>
+            <table class="timetable">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="time">9:00 - 10:00</td>
+                        <td class="subject math">Mathematics</td>
+                        <td class="subject english">English</td>
+                        <td class="subject science">Physics</td>
+                        <td class="subject math">Mathematics</td>
+                        <td class="subject computer">Computer Science</td>
+                    </tr>
+                    <tr>
+                        <td class="time">10:00 - 11:00</td>
+                        <td class="subject science">Chemistry</td>
+                        <td class="subject math">Mathematics</td>
+                        <td class="subject english">English</td>
+                        <td class="subject science">Biology</td>
+                        <td class="subject math">Mathematics</td>
+                    </tr>
+                    <tr>
+                        <td class="time">11:00 - 11:20</td>
+                        <td colspan="5" class="break">☕ Break Time</td>
+                    </tr>
+                    <tr>
+                        <td class="time">11:20 - 12:20</td>
+                        <td class="subject computer">Computer Science</td>
+                        <td class="subject science">Physics</td>
+                        <td class="subject math">Mathematics</td>
+                        <td class="subject english">English</td>
+                        <td class="subject science">Chemistry</td>
+                    </tr>
+                    <tr>
+                        <td class="time">12:20 - 1:20</td>
+                        <td class="subject english">English</td>
+                        <td class="subject computer">Computer Science</td>
+                        <td class="subject computer">Computer Science</td>
+                        <td class="subject science">Physics</td>
+                        <td class="subject english">English</td>
+                    </tr>
+                    <tr>
+                        <td class="time">1:20 - 2:00</td>
+                        <td colspan="5" class="lunch">🍽️ Lunch Time</td>
+                    </tr>
+                    <tr>
+                        <td class="time">2:00 - 3:00</td>
+                        <td class="subject science">Biology</td>
+                        <td class="subject english">English</td>
+                        <td class="subject computer">Computer Science</td>
+                        <td class="subject math">Mathematics</td>
+                        <td class="subject science">Physics</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="info-section">
+            <h2>Subject Color Code</h2>
+            <div class="color-legend">
+                <div class="legend-item">
+                    <span class="color-box math"></span>
+                    <span>Mathematics</span>
+                </div>
+                <div class="legend-item">
+                    <span class="color-box english"></span>
+                    <span>English</span>
+                </div>
+                <div class="legend-item">
+                    <span class="color-box science"></span>
+                    <span>Science (Physics, Chemistry, Biology)</span>
+                </div>
+                <div class="legend-item">
+                    <span class="color-box computer"></span>
+                    <span>Computer Science</span>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2024-2025 Student Management System | Last Updated: April 2026</p>
+        </footer>
+    </div>
+</body>
+</html>
